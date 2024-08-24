@@ -37,7 +37,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: mkhan13/azure-deploy-template:latest
+          tags: mkhan13/azure-deploy-template
           
   deploy:
     runs-on: ubuntu-latest
